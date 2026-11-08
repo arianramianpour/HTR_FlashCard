@@ -1,0 +1,25 @@
+{
+  "name": "little-cards",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "format": "prettier --write \"*.js\" \"*.json\" \"*.md\" \"public/**/*.{js,css,html}\"",
+    "format:check": "prettier --check \"*.js\" \"*.json\" \"*.md\" \"public/**/*.{js,css,html}\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "mysql2": "^3.11.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
